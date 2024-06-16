@@ -1,6 +1,9 @@
 <script>
+import Weather from '@/components/weather/index.vue'
+
 export default {
   name:'WHeader',
+  components: { Weather },
   components:{
 
   },
@@ -36,6 +39,7 @@ export default {
     </div>
     <div class="info">
       <span>个人信息</span>
+      <Weather />
     </div>
   </div>
 </template>

@@ -1,0 +1,15 @@
+.main{
+  width: 100%;
+  border: 1px solid #333;
+  background-color: rgba(0,0,0,.2);
+  &-left{
+    width:25%;
+    height: 100%;
+    border:1px solid rosybrown;
+  }
+  &-right{
+    width: calc(75% - 1px);
+    height: 100%;
+    border: 1px solid salmon;
+  }
+}

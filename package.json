@@ -10,9 +10,11 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue2": "^2.3.1",
+    "autoprefixer": "^10.4.19",
     "axios": "^1.7.2",
     "lodash": "^4.17.21",
     "path": "^0.12.7",
+    "postcss": "^8.4.38",
     "prettier": "^3.3.2",
     "sass": "^1.77.5",
     "sass-loader": "^14.2.1",
@@ -24,6 +26,7 @@
   },
   "dependencies": {
     "@jiaminghi/data-view": "^2.10.0",
+    "dayjs": "^1.11.11",
     "pinia": "^2.1.7",
     "vue": "^2.7.16",
     "vue-router": "^3.6.5"
